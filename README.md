@@ -22,7 +22,7 @@
 
 #### Create container image
 - `cd ci`
-- `docker build -t ahmp_cond'
+- `docker build -t ahmp_cond`
 
 #### Run the container
 - `cd [project_folder]`
