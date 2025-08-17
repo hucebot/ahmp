@@ -1,6 +1,11 @@
-# Agile Humanoid Motion Planning with Contact Discovery
+# AHMP: Agile Humanoid Motion Planning with Contact Discovery
 
-### Install on your system
+This is the official repository for the experiment code of the paper "AHMP: Agile Humanoid Motion Planning with Contact Sequence Discovery" accepted at the 2025 IEEE-RAS 24th International Conference on Humanoid Robots (Humanoids)".
+
+# Abstract
+Planning agile whole-body motions for legged and humanoid robots is a fundamental requirement for enabling dynamic tasks such as running, jumping, and fast reactive maneuvers. In this work, we present AHMP, a multi-contact motion planning framework based on bi-level optimization that integrates a contact sequence discovery technique, using the Mixed-Distribution Cross-Entropy Method (CEM-MD), and an efficient trajectory optimization scheme, which parameterizes the robot’s poses and motions in the tangent space of SE(3). AHMP permits the automatic generation of feasible contact configurations, with associated whole-body dynamic transitions. We validate our approach on a set of challenging agile motion planning tasks for humanoid robots, demonstrating that contact sequence discovery combined with tangent space parameterization leads to highly dynamic motion sequences while remaining computationally efficient.
+
+### Installation instructions to run the paper experiments
 
 #### Create a python venv and install dependencies
 - `python3 -m venv .venv`
